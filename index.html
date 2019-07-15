@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <style media="screen">
+  body {font-family: Arial;}
+
+  /* Style the tab */
+    .tab {
+      overflow: hidden;
+      /* border: 1px solid #ccc; */
+      background-color: rgb(220,255,0);
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: rgb(220,255,0);
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: rgb(45,218,91);
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: rgb(41,199,83);
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      /* border: 1px solid #ccc; */
+      border-top: none;
+    }
+  </style>
+  <head>
+    <!-- info about the page -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="website2.css">
+    <script src="file://C:\Users\sfo\Desktop\Python Projects\javatest.js"></script>
+  </head>
+  <body>
+
+    <script src="javatest.js">
+
+    </script>
+
+    <!-- what is actually seen -->
+    <h1 tabindex="0"> <strong> Conspiracy Theories </strong></h1>
+    <h2 tabindex="0">  <em>Question Everything?</em> </h2>
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+      <button class="tablinks" onclick="openCity(event, 'London')">Famous Theories</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Famous Theorists</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Famous people you didn't know were theorists</button>
+
+    </div>
+
+    <div id="Home" class="tabcontent">
+      <h1> </h1>
+      <p><img src="https://media.giphy.com/media/TNk5NDanFOmv6/giphy.gif" alt="The Truth is out There"></p>
+    </div>
+
+
+
+    <div id="London" class="tabcontent">
+      <h1 tabindex="0">Famous Theories</h1>
+      <div>
+      <h2 tabindex="0">Chemtrails</h2>
+    <h3 tabindex="0">The chemtrail conspiracy theory is based on the erroneous belief that long-lasting condensation trails are "chemtrails" consisting of chemical or biological agents left in the sky by high-flying aircraft, sprayed for nefarious purposes undisclosed to the general public.</h3>
+      </div>
+      <div>
+        <h2 tabindex="0">Flat Earth</h2>
+      <h3 tabindex="0">  Modern flat Earth societies are organizations that promote the misconception that the Earth is flat rather than a globe. Such groups date from the middle of the 20th century; some adherents are serious and some are not. Those who are serious are often motivated by pseudoscience or Biblical literalism.</h3>
+      </div>
+      <div>
+      <h2 tabindex="0"> Illuminati</h2>
+    <h3 tabindex="0">  The Illuminati is a name given to several groups, both real and fictitious. Historically, the name usually refers to the Bavarian Illuminati, an Enlightenment-era secret society founded on 1 May 1776. Certain celebrities such as Jay Z, Beyonce and Lady Gaga have been rumored to be apart of the society.</h3>
+      </div>
+      <div>
+      <h2 tabindex="0"> Lizard People</h2>
+    <h3 tabindex="0">  Lizard people are cold-blooded humanoid reptilians who have the power to shape-shift into human form. According to David Icke, a new-age philosopher and one of the most prominent theorists in the lizard people game, these creatures have had their claws in humankind since ancient time, and world leaders like Queen Elizabeth, George W. Bush, the Clintons, and Bob Hope are all lizard people.</h3>
+      </div>
+    </div>
+
+
+
+    <div id="Paris" class="tabcontent">
+      <h1 tabindex="0">Famous Theorists</h1>
+      <div>
+        <!-- <a href="https://en.wikipedia.org/wiki/Alex_Jones"><h2>Alex Jones<h2></a> -->
+        <h2 tabindex="0">Alex Jones<h2>
+      </div>
+      <div>
+        <img src="https://media1.giphy.com/media/AweMfPaVIS5kA/giphy.gif" alt="A gif of Alex Jones staring into the camera">
+      </div>
+      "THAT'S THEIR PLEASURE MuHAA, THEIR PLEASURE! Well I'm not gonna give them their pleasure. I'M GONNA CRAM A GUN IN THEIR MOUTH TO SEE HOW THEY LIKE IT! CAUSE I'M FREE! And it's been in my family history to fight! And I'm not your slave, so get it straight and we're ready. YOU CAN NERVE GAS US ALL DAY, WE'RE READY TO ROCK!"
+      <div>  <h2>David Icke<h2>
+      </div>
+      <div>
+        <img src="https://media1.giphy.com/media/gVdGtNHIqGeE8/giphy.gif" alt="A static gif of David Icke">
+      </div>
+      <div>
+      "When you look in the mirror, what do you see? Do you see the real you, or what you have been conditioned to believe is you? The two are so, so different. One is an infinite consciousness capable of being and creating whatever it chooses, the other is an illusion imprisoned by its own perceived and programmed limitations."
+    </div>
+    </div>
+
+
+
+    <div id="Tokyo" class="tabcontent">
+      <div>
+      <h1 tabindex="0">  Famous people you didn't know were theorists </h1>
+      <h2 tabindex="0"> Shaquille O'Neal <h2>
+      </div>
+      <div>
+        <img src="https://media1.tenor.com/images/991a2cd4ce4845eed076d0a5b3be5bdc/tenor.gif?itemid=13764382" alt="A gif of Shaquille O'Neal eating wings then staring into the camera with an alert face">
+      </div>
+      <div>
+      Shaquille O'Neal maybe most famous for his legacy as an NBA star, but he has also had is fair share of attention for his belief in a flat Earth.
+      </div>
+      <div>
+          “It’s true. The Earth is flat. The Earth is flat. Yes, it is. Listen, there are three ways to manipulate the mind — what you read, what you see and what you hear.
+
+          In school, first thing they teach us is, ‘Oh, Columbus discovered America,’ but when he got there, there were some fair-skinned people with the long hair smoking on the peace pipes.
+
+          So, what does that tell you? Columbus didn’t discover America. So, listen, I drive from coast to coast, and this s*** is flat to me. I’m just saying. I drive from Florida to California all the time, and it’s flat to me.
+          I do not go up and down at a 360-degree angle, and all that stuff about gravity, have you looked outside Atlanta lately and seen all these buildings? You mean to tell me that China is under us? China is under us? It’s not. The world is flat.”
+          <h2 tabindex="0"> Bruce Willis <h2>
+          </div>
+          <div>
+            <img src="https://media.giphy.com/media/yiooZuibi6KSA/giphy.gif" alt="An image of bruce willis making an awkward face">
+          </div>
+          <div>
+          World famous actor Bruce Willis doesn't believe JFK was killed by Lee Harvey Oswald
+          </div>
+          <div>
+            "They still haven't caught the guy that killed Kennedy, I'll get killed for saying this, but I'm pretty sure those guys are still in power, in some form."
+             "when the counter evidence is stifled, we are closer to a Soviet-era manufacturing of history in which the mainstream media deeply discredit our country and continue to demean our common sense."
+          </div>
+      </div>
+
+
+
+  </body>
+
+</html>
